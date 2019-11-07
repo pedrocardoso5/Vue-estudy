@@ -1,0 +1,19 @@
+{
+  "name": "vue-estudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrocardoso5/Vue-estudy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrocardoso5/Vue-estudy/issues"
+  },
+  "homepage": "https://github.com/pedrocardoso5/Vue-estudy#readme"
+}
