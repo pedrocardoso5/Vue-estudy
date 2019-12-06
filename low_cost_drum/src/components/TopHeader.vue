@@ -1,23 +1,25 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" type="dark" class="nav-background">
+        <b-navbar toggleable="lg" type="dark" fixed="top" class="nav-background">
 
         <b-navbar variant="faded" type="light">
           <b-navbar-brand href="#">
             <!-- <img src="../images/smile.png" alt="Kitten" height="100" width="150"> -->
           </b-navbar-brand>
         </b-navbar>
-
-        <b-navbar-brand to="/">Home</b-navbar-brand>
-        <b-navbar-brand to="/sobre">About</b-navbar-brand>
+        <b-navbar-brand href="#" color:black>Bateria</b-navbar-brand>
+        <!-- <b-navbar-brand to="/">Home</b-navbar-brand>
+        <b-navbar-brand to="/sobre">About</b-navbar-brand> -->
         <!-- <b-navbar-brand to="/">Home</b-navbar-brand> -->
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
-          <!-- <b-navbar-nav>
-            <b-nav-item href="#">Link</b-nav-item>
-            <b-nav-item href="#" disabled>Disabled</b-nav-item>
-          </b-navbar-nav> -->
+          <b-navbar-nav>
+            <b-nav-item to="/">Home</b-nav-item>
+            <b-nav-item to="/tutorial">Tutorial</b-nav-item>
+            <b-nav-item to="/sobre" right>Sobre</b-nav-item>
+            <!-- <b-nav-item to="/tutorial">Tutorial</b-nav-item> -->
+          </b-navbar-nav>
 
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
@@ -49,5 +51,6 @@ export default {
 }
 .nav-background{
   background:white;
+  line-height: 30px;
 }
 </style>

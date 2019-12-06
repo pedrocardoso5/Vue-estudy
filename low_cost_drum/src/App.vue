@@ -1,4 +1,4 @@
-<template background-color: #EFEFEF>
+<template >
   <div id="app">
 
     <div id="nav">
