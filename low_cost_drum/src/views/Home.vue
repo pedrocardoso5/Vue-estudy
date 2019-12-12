@@ -10,18 +10,18 @@
           img-src="https://images2.imgbox.com/32/1e/yk8z7ZUH_o.jpg"
           img-alt="Card Image"
           text-variant="Black"
-          title="Image Overlay"
-          sub-title="Subtitle"
+          title=""
+          sub-title=""
         >
-          <b-card-text>
-            Some quick example text to build on the card and make up the bulk of the card's content.
+          <b-card-text style="color= #fff">
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel saepe expedita optio atque! Quaerat commodi aliquid distinctio suscipit exercitationem natus illo ab delectus quod, blanditiis, repellat minima eligendi voluptates impedit. -->
           </b-card-text>
         </b-card>
     </div>
     <b-container class="bv-example-row">
-      <b-row align-v="center">
+      <b-row align-v="center" align-h="end">
         <b-col>
-          <b-card title = "BATERIA" img-src="https://picsum.photos/600/300/?image=25" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
+          <b-card title = "BATERIA" img-src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
             <b-card-text>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sapiente, nostrum provident minus sed dolorem nobis eos delectus numquam aut suscipit dolor iste dicta qui nesciunt ipsum aspernatur fugiat itaque.
             </b-card-text>
@@ -29,7 +29,7 @@
           </b-card>
         </b-col>
         <b-col>
-           <b-card title = "MODULO" img-src="https://picsum.photos/600/300/?image=25" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
+           <b-card title = "MODULO" img-src="https://images-na.ssl-images-amazon.com/images/I/510nE9cpblL._SX425_.jpg" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
             <b-card-text>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sapiente, nostrum provident minus sed dolorem nobis eos delectus numquam aut suscipit dolor iste dicta qui nesciunt ipsum aspernatur fugiat itaque.
             </b-card-text>
@@ -37,7 +37,7 @@
           </b-card>
         </b-col>
         <b-col>
-           <b-card title = "PIEZO" img-src="https://picsum.photos/600/300/?image=25" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
+           <b-card title = "PIEZO" img-src="http://cdn.shopify.com/s/files/1/1604/8285/products/ADC121C021_PIZO_1_7bb4d874-e6d2-47ae-b206-beb27dd6e691_1024x1024.png?v=1487093278" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
             <b-card-text>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sapiente, nostrum provident minus sed dolorem nobis eos delectus numquam aut suscipit dolor iste dicta qui nesciunt ipsum aspernatur fugiat itaque.
             </b-card-text>
@@ -55,7 +55,7 @@
 </template>
 <style>
 .bv-example-row{
-  height: 1000px;
+  height: 700px;
   margin-top: auto;
 }
 .Sapato{
@@ -64,10 +64,6 @@
   margin-left: auto;
   margin-right: auto;
   background-color:white;
-}
-.bloco-1{
-  background-color:black;
-  color:black;
 }
 
 .teste{
