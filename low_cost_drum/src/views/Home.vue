@@ -17,6 +17,10 @@
             <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel saepe expedita optio atque! Quaerat commodi aliquid distinctio suscipit exercitationem natus illo ab delectus quod, blanditiis, repellat minima eligendi voluptates impedit. -->
           </b-card-text>
         </b-card>
+        <div class="rasta">
+      <div class="container">
+      </div>
+    </div>
     </div>
     <b-container class="bv-example-row">
       <b-row align-v="center" align-h="end">
@@ -60,10 +64,17 @@
 }
 .Sapato{
   width: 100%;
-  height: 350px;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
   background-color:white;
+}
+.rasta{
+  width: 100%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#FF3B3F;
 }
 
 .teste{
