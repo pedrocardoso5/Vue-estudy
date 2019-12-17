@@ -1,25 +1,22 @@
 <template>
   <div class="about">
     <div>
-      <b-img src="https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1930&q=80" fluid alt="Responsive image"></b-img>
-      <!-- <figure class="img-fixes-height">
-        <div id="imagem-boletim" class="img-bg-cover image-cover-fixed" style="background-image: url("https://cdn.pixabay.com/photo/2015/06/30/00/19/mountain-826114_960_720.jpg");">
-        </div>
-      </figure> -->
-    </div>
+      <div>
+        <b-img src="https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1930&q=80" fluid alt="Responsive image"></b-img>
+        <!-- <figure class="img-fixes-height">
+          <div id="imagem-boletim" class="img-bg-cover image-cover-fixed" style="background-image: url("https://cdn.pixabay.com/photo/2015/06/30/00/19/mountain-826114_960_720.jpg");">
+          </div>
+        </figure> -->
+      </div>
     <b-container class="bv-example-row">
       <header class="header-h1">
-        <h1>QUEM SOMOS</h1>
+        <h1 style="color: #FF3B3F">QUEM SOMOS</h1>
       </header>
       <div class="w-100"></div>
-      <b-row align-v="center" align-h="end">
-          <content class="about-write">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga minus rem optio sunt labore quam recusandae, ut a beatae repudiandae quasi eum iusto aut, obcaecati omnis voluptatum iure tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis quisquam sunt reprehenderit aperiam rerum ipsa aliquid corporis repellat molestiae autem suscipit temporibus, neque blanditiis placeat dolore explicabo. Et, provident!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore velit neque autem, exercitationem tempora error nostrum, quo, saepe fugit aut nam natus iste dicta magni aliquid placeat quae corrupti? Quos.
-</p>
-    </content>
-      </b-row>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis quisquam sunt reprehenderit aperiam rerum ipsa aliquid corporis repellat molestiae autem suscipit temporibus, neque blanditiis placeat dolore explicabo. Et, provident!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore velit neque autem, exercitationem tempora error nostrum, quo, saepe fugit aut nam natus iste dicta magni aliquid placeat quae corrupti? Quos.
+      </p>
       <div class="w-100"></div>
         <b-row align-v="center" align-h="end">
           <b-col align-self="center">
@@ -65,8 +62,12 @@
         </b-row>
       </b-container>
   </div>
+  </div>
 </template>
 <style scoped>
+  .about{
+text-align: left;
+  }
   .header-h1{
     margin: 50px;
     text-align: left;

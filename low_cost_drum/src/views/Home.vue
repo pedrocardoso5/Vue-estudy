@@ -1,24 +1,34 @@
 <template >
 <div class="home">
     <div class="bloco-1" >
+      <div>
+        <b-img src="https://images2.imgbox.com/32/1e/yk8z7ZUH_o.jpg" fluid alt="Responsive image"></b-img>
+        <!-- <figure class="img-fixes-height">
+          <div id="imagem-boletim" class="img-bg-cover image-cover-fixed" style="background-image: url("https://cdn.pixabay.com/photo/2015/06/30/00/19/mountain-826114_960_720.jpg");">
+          </div>
+        </figure> -->
+      </div>
         <!-- <h1>TESTE</h1> -->
         <!-- <img src="../amigo.jpg" fluid alt="Kitten" class="imgp"> -->
         <!-- <label class="teste">texto grande pra sei la</label> -->
         <!-- <b-button class="butao" variant="outline-primary" size="lg"> <router-link to="/sobre"> Click aqui!!!</router-link></b-button> -->
-        <b-card
+        <!-- <b-card
           overlay
           img-src="https://images2.imgbox.com/32/1e/yk8z7ZUH_o.jpg"
           img-alt="Card Image"
           text-variant="Black"
           title=""
           sub-title=""
-        >
-          <b-card-text style="color= #fff">
+        > -->
+          <!-- <b-card-text style="color= #fff"> -->
             <!-- Lorem ipsum dolor sit amet consecte  tur adipisicing elit. Vel saepe expedita optio atque! Quaerat commodi aliquid distinctio suscipit exercitationem natus illo ab delectus quod, blanditiis, repellat minima eligendi voluptates impedit. -->
-          </b-card-text>
-        </b-card>
+          <!-- </b-card-text> -->
+        <!-- </b-card> -->
         <div class="rasta">
       <div class="container">
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, incidunt. Enim consequuntur nam vero sint animi vitae nesciunt, itaque sunt excepturi esse voluptatibus distinctio dolorem facilis, commodi rerum cumque culpa.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum corrupti commodi modi, quod totam dolorem nobis consequatur ullam quas placeat eaque veritatis. Cupiditate animi consectetur maiores molestiae quasi maxime?
+        </p> -->
       </div>
       </div>
     </div>
