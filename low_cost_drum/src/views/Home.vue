@@ -14,13 +14,13 @@
           sub-title=""
         >
           <b-card-text style="color= #fff">
-            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel saepe expedita optio atque! Quaerat commodi aliquid distinctio suscipit exercitationem natus illo ab delectus quod, blanditiis, repellat minima eligendi voluptates impedit. -->
+            <!-- Lorem ipsum dolor sit amet consecte  tur adipisicing elit. Vel saepe expedita optio atque! Quaerat commodi aliquid distinctio suscipit exercitationem natus illo ab delectus quod, blanditiis, repellat minima eligendi voluptates impedit. -->
           </b-card-text>
         </b-card>
         <div class="rasta">
       <div class="container">
       </div>
-    </div>
+      </div>
     </div>
     <b-container class="bv-example-row">
       <b-row align-v="center" align-h="end">
