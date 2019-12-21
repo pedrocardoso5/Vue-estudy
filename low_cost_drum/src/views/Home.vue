@@ -1,7 +1,7 @@
 <template >
 <div class="home">
     <div class="bloco-1" >
-      <div>
+      <div class="bloco-11">
         <b-img src="https://images2.imgbox.com/32/1e/yk8z7ZUH_o.jpg" fluid alt="Responsive image"></b-img>
         <!-- <figure class="img-fixes-height">
           <div id="imagem-boletim" class="img-bg-cover image-cover-fixed" style="background-image: url("https://cdn.pixabay.com/photo/2015/06/30/00/19/mountain-826114_960_720.jpg");">
@@ -117,5 +117,8 @@
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+.bloco-1{
+  width: full;
 }
 </style>

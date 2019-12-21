@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div>
+    <div class="caixa-1">
       <div>
         <b-img src="https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1930&q=80" fluid alt="Responsive image"></b-img>
         <!-- <figure class="img-fixes-height">
@@ -61,10 +61,14 @@
           </p>
         </b-row>
       </b-container>
-  </div>
+    </div>
+  <!-- <div class="Sapato" style="backgroung-color: #fff;">
+      <div class="container">
+      </div>
+    </div> -->
   </div>
 </template>
-<style scoped>
+<style>
   .about{
 text-align: left;
   }
