@@ -4,7 +4,7 @@
           <b-col align-self="center" style="backgroung-color: #fff;">
             <div class="b-111">
               <b-col align-self="center">
-                  <h2 style="color: #FF3B3F">Como Adquirir</h2>
+                  <h2 style="color: #FF3B3F">COMO FUNCIONA</h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis quisquam sunt reprehenderit aperiam rerum ipsa aliquid corporis repellat molestiae autem suscipit temporibus, neque blanditiis placeat dolore explicabo. Et, provident!<br/>

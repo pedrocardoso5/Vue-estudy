@@ -18,6 +18,7 @@
             <b-nav-item to="/">Home</b-nav-item>
             <b-nav-item to="/tutorial">Tutorial</b-nav-item>
             <b-nav-item to="/sobre" right>Sobre</b-nav-item>
+            <b-nav-item to="/contato" right>Contato</b-nav-item>
             <!-- <b-nav-item to="/tutorial">Tutorial</b-nav-item> -->
           </b-navbar-nav>
 
