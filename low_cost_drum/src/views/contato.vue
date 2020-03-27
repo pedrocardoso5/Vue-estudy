@@ -13,10 +13,30 @@
       <div class="w-100"></div>
        <div class="form">
         <form action="https://formspree.io/mzbvwdvd" method="POST">
-          <input type="text" name="name">
+          <b-container class="bv-example-row">
+            <b-row>
+              <b-col>
+                <b-container class="bv-example-row">
+                  <b-row>
+                    <b-col><p>Nome: </p><input style="width: 500%" type="text" name="name"><br></b-col>
+                    <b-col><p style="margin-top: 15px">Email: </p><input style="width: 500%" type="email" name="_replyto"><br></b-col>
+                  </b-row>
+                  <b-row>
+                    <b-col><p style="margin-top: 15px">Mensagem: </p><textarea style="width: 500%" name="text" cols="20" rows="10" ></textarea><br></b-col>
+                  </b-row>
+                  <b-row>
+                    <b-col><b-button type="submit" variant="secondary" style="margin-top: 15px">Enviar</b-button></b-col>
+                  </b-row>
+                </b-container>
+              </b-col>
+              <b-col>
+              </b-col>
+            </b-row>
+          </b-container>
+          <!-- <p>Nome: </p><input type="text" name="name"><br>
            <div class="w-100"></div>
-          <input type="email" name="_replyto">
-          <input type="submit" value="ENVIAR">
+          <p>Email: </p><input type="email" name="_replyto"><br>
+          <input type="submit" value="ENVIAR"> -->
         </form>
       </div>
       </b-container>
@@ -24,7 +44,13 @@
   </div>
 </template>
 <style>
-    .form
+    .form{
+      margin-top: 50px;
+      text-align: left;
+      width: 300px;
+      display: block;
+      border-left-color: black;
+    }
     .about{
         text-align: left;
     }

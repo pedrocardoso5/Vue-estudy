@@ -11,7 +11,7 @@
         <!-- <b-navbar-brand to="/">Home</b-navbar-brand>
         <b-navbar-brand to="/sobre">About</b-navbar-brand> -->
         <!-- <b-navbar-brand to="/">Home</b-navbar-brand> -->
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-navbar-toggle target="nav-collapse" style="color: black">V</b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
@@ -29,10 +29,10 @@
               <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
             </b-nav-form> -->
 
-            <b-nav-item-dropdown text="Lang" right>
+            <!-- <b-nav-item-dropdown text="Lang" right>
               <b-dropdown-item href="#">BR</b-dropdown-item>
               <b-dropdown-item href="#">EN</b-dropdown-item>
-            </b-nav-item-dropdown>
+            </b-nav-item-dropdown> -->
 
           </b-navbar-nav>
         </b-collapse>
