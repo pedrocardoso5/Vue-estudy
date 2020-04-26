@@ -7,7 +7,7 @@
             <!-- <img src="../images/smile.png" alt="Kitten" height="100" width="150"> -->
           </b-navbar-brand>
         </b-navbar>
-        <b-navbar-brand href="#" color:black>Bateria</b-navbar-brand>
+        <b-navbar-brand href="#" color:black>LAPERME</b-navbar-brand>
         <!-- <b-navbar-brand to="/">Home</b-navbar-brand>
         <b-navbar-brand to="/sobre">About</b-navbar-brand> -->
         <!-- <b-navbar-brand to="/">Home</b-navbar-brand> -->
@@ -16,7 +16,10 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
             <b-nav-item to="/">Home</b-nav-item>
-            <b-nav-item to="/tutorial">Tutorial</b-nav-item>
+            <b-nav-item-dropdown text="Projetos" left>
+              <b-dropdown-item to="/tutorial">Bateria</b-dropdown-item>
+            </b-nav-item-dropdown>
+              <!-- <b-dropdown-item href="#">EN</b-dropdown-item> -->
             <b-nav-item to="/sobre" right>Sobre</b-nav-item>
             <b-nav-item to="/contato" right>Contato</b-nav-item>
             <!-- <b-nav-item to="/tutorial">Tutorial</b-nav-item> -->
