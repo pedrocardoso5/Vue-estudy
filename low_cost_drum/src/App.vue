@@ -1,11 +1,22 @@
 <template >
   <div id="app">
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <div id="nav">
       <top-header></top-header>
       <!-- <router-link to ="/"> -->
     </div >
       <router-view/>
+      <!-- <footer class="footer is-primary">
+        <div>
+          <div>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia alias voluptatum possimus beatae numquam corrupti ipsa quae, fugit eius error deleniti tenetur? Quam, esse quaerat fuga quisquam quis eum?
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer> -->
   </div>
 </template>
 <script>
