@@ -1,10 +1,12 @@
 <template>
 <div class="home">
-  <div class="bloco-1" >
-    <div class="bloco-11">
-      <b-img src="https://images2.imgbox.com/32/1e/yk8z7ZUH_o.jpg" fluid alt="Responsive image"></b-img>
-    </div>
-  </div>
+  <section class="paralax">
+    <div class="bloco-1" style="text-align:left; padding-left: 160px; ">
+      <h1 style="font-size:3.5rem;">LAPERME</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+         <!-- <b-img src="https://uploaddeimagens.com.br/images/002/629/266/original/finaltrue.jpg?1588599760" fluid alt="Responsive image"></b-img> -->
+     </div>
+  </section>
   <div class="rasta">
   </div>
   <div class="conteudo">
@@ -84,6 +86,16 @@
 </div>
 </template>
 <style>
+.paralax{
+  background-image: url(https://uploaddeimagens.com.br/images/002/629/266/original/finaltrue.jpg?1588599760);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .row{
   margin-right: 0px !important;
 }
