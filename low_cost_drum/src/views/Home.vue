@@ -26,12 +26,6 @@
       <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
           <b-img src="https://images2.imgbox.com/32/1e/yk8z7ZUH_o.jpg" fluid alt="Responsive image"></b-img>
       </b-col>
-      <!-- <div class="w-100" style="height:'10px'"></div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, ipsam facilis fuga molestiae quas deserunt consectetur nesciunt aperiam, aut itaque dolorem modi quaerat. Ab accusamus deleniti corrupti tenetur, officiis itaque!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptas provident repellendus totam corporis magni explicabo, ullam omnis doloribus velit, voluptatum necessitatibus! Amet hic excepturi magnam illum alias soluta eligendi!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis inventore velit alias, mollitia veritatis aliquam consequatur voluptate blanditiis dolorum, asperiores nam rem excepturi! Cumque natus laudantium beatae dolorem labore.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil expedita quam adipisci corporis praesentium qui pariatur eos non vel quas quis, eum molestias repellendus placeat officia laboriosam hic earum doloribus!
-      </p> -->
     </b-row>
     <b-row align-v="center" align-h="end" style="backgroung-color: white;">
       <b-col align-self="center">
