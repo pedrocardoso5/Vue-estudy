@@ -2,18 +2,19 @@
   <div class="about">
     <div class="caixa-1">
     <b-container class="bv-example-row">
-      <header class="header-h1">
-        <h1 style="color: #FF3B3F">ENTRE EM CONTATO</h1>
-      </header>
-      <div class="w-100"></div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga minus rem optio sunt labore quam recusandae, ut a beatae repudiandae quasi eum iusto aut, obcaecati omnis voluptatum iure tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis quisquam sunt reprehenderit aperiam rerum ipsa aliquid corporis repellat molestiae autem suscipit temporibus, neque blanditiis placeat dolore explicabo. Et, provident!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore velit neque autem, exercitationem tempora error nostrum, quo, saepe fugit aut nam natus iste dicta magni aliquid placeat quae corrupti? Quos.
-      </p>
-      <div class="w-100"></div>
-       <div class="form">
+      <div>
+        <header class="header-h1">
+          <h1 style="color: #FF3B3F">ENTRE EM CONTATO</h1>
+        </header>
+        <div class="w-100"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga minus rem optio sunt labore quam recusandae, ut a beatae repudiandae quasi eum iusto aut, obcaecati omnis voluptatum iure tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis quisquam sunt reprehenderit aperiam rerum ipsa aliquid corporis repellat molestiae autem suscipit temporibus, neque blanditiis placeat dolore explicabo. Et, provident!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore velit neque autem, exercitationem tempora error nostrum, quo, saepe fugit aut nam natus iste dicta magni aliquid placeat quae corrupti? Quos.
+        </p>
+        <div class="w-100"></div>
+        <div class="form">
         <form action="https://formspree.io/mzbvwdvd" method="POST">
-          <b-container class="bv-example-row">
+          <div class="bv-example-row">
             <b-row>
               <b-col>
                 <b-container class="bv-example-row">
@@ -32,14 +33,28 @@
               <b-col>
               </b-col>
             </b-row>
-          </b-container>
-          <!-- <p>Nome: </p><input type="text" name="name"><br>
-           <div class="w-100"></div>
-          <p>Email: </p><input type="email" name="_replyto"><br>
-          <input type="submit" value="ENVIAR"> -->
-        </form>
+          </div>
+            <!-- <p>Nome: </p><input type="text" name="name"><br>
+            <div class="w-100"></div>
+            <p>Email: </p><input type="email" name="_replyto"><br>
+            <input type="submit" value="ENVIAR"> -->
+          </form>
+        </div>
       </div>
       </b-container>
+      <footer class="footer is-prim">
+        <div class="contai">
+          <div class="columns">
+            <div class="column">
+              <p>And right here is a spiffy footer, where you can put stuff.</p>
+            </div>
+            <div class="column has-text-right">
+              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </div>
 </template>

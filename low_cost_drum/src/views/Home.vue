@@ -77,6 +77,19 @@
 
       </div>
     </div>
+    <footer class="footer is-prim">
+        <div class="contai">
+          <div class="columns">
+            <div class="column">
+              <p>And right here is a spiffy footer, where you can put stuff.</p>
+            </div>
+            <div class="column has-text-right">
+              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
 </div>
 </template>
 <style>
@@ -95,10 +108,6 @@
 }
 .conteudo{
   max-width: 100%;
-}
-.bv-example-row{
-  height: 700px;
-  margin-top: auto;
 }
 .bv-example-row2{
   height: 700px;

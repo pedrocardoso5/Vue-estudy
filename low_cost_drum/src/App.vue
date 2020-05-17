@@ -7,6 +7,19 @@
       <!-- <router-link to ="/"> -->
     </div >
       <router-view/>
+      <footer class="footer is-prim">
+        <div class="contai">
+          <div class="columns">
+            <div class="column">
+              <p>And right here is a spiffy footer, where you can put stuff. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis odit, error ad doloremque magni nisi maiores non exercitationem corrupti ut hic esse iste accusamus explicabo voluptas! Numquam earum repellendus modi!</p>
+            </div>
+            <div class="column has-text-right">
+              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
       <!-- <footer class="footer is-primary">
         <div>
           <div>
