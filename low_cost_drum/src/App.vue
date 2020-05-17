@@ -10,13 +10,30 @@
       <footer class="footer is-prim">
         <div class="contai">
           <div class="columns">
-            <div class="column">
-              <p>And right here is a spiffy footer, where you can put stuff. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis odit, error ad doloremque magni nisi maiores non exercitationem corrupti ut hic esse iste accusamus explicabo voluptas! Numquam earum repellendus modi!</p>
-            </div>
-            <div class="column has-text-right">
-              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
-              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
-            </div>
+            <b-container class="bv-example-row4">
+              <b-row class="text-center">
+                <b-col>
+                  <h2>UFRN</h2>
+                  <h2>EMUFRN</h2>
+                  <h2>IMD</h2>
+                </b-col>
+                <b-col cols="8">
+                  <p>Escola de Musica da UFRN</p>
+                  <p>R. Cel. João Medeiros - Lagoa Nova, Natal - RN, 59077-080</p>
+                  <p>Telefone: (84) 3342-2229</p>
+                  <p>Email: exemplo@ufrn.edu.br</p>
+                </b-col>
+                <b-col>
+                  <p><b-link to="/tutorial">Projetos</b-link></p>
+                  <p><b-link to="/sobre">Sobre</b-link></p>
+                  <p><b-link to="/Contato">Contato</b-link></p>
+                </b-col>
+              </b-row>
+
+              <b-row class="text-center">
+                <b-col>Laboratorio de performance (c) copyright 2020</b-col>
+              </b-row>
+            </b-container>
           </div>
         </div>
       </footer>
@@ -42,7 +59,7 @@ export default {
 </script>
 
 <style>
-  body {
+body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   font-size: 18px !important;
@@ -73,6 +90,10 @@ export default {
 #nav a {
   font-weight: bold;
   color:#a9a9a9;
+}
+footer{
+  background-color: $primary !important;
+  color: #FF3B3F;
 }
 
 </style>

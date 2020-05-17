@@ -42,19 +42,6 @@
         </div>
       </div>
       </b-container>
-      <footer class="footer is-prim">
-        <div class="contai">
-          <div class="columns">
-            <div class="column">
-              <p>And right here is a spiffy footer, where you can put stuff.</p>
-            </div>
-            <div class="column has-text-right">
-              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
-              <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   </div>
 </template>

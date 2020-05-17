@@ -188,19 +188,6 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur eos cumque magni eligendi placeat atque, ad ducimus rerum quidem quam voluptates asperiores, ipsum voluptas dicta iste nostrum, veritatis et?
           </p>
         </b-row>
-        <footer class="footer is-prim">
-          <div class="contai">
-            <div class="columns">
-              <div class="column">
-                <p>And right here is a spiffy footer, where you can put stuff. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, commodi pariatur rerum temporibus quibusdam inventore eveniet. Voluptatem, velit quod tempore nostrum temporibus error eveniet fugiat? Nostrum omnis sequi nihil voluptatibus.</p>
-              </div>
-              <div class="column has-text-right">
-                <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
-                <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
-              </div>
-            </div>
-          </div>
-        </footer>
         </b-container>
         </div>
 
