@@ -9,6 +9,7 @@
       <router-view/>
       <footer class="footer is-prim">
         <div class="contai">
+          <div class="espaçamento"></div>
           <div class="columns">
             <b-container class="bv-example-row4">
               <b-row class="text-center">
@@ -19,9 +20,9 @@
                 </b-col>
                 <b-col cols="8">
                   <p>Escola de Musica da UFRN</p>
-                  <p>R. Cel. João Medeiros - Lagoa Nova, Natal - RN, 59077-080</p>
-                  <p>Telefone: (84) 3342-2229</p>
-                  <p>Email: exemplo@ufrn.edu.br</p>
+                  <p>  R. Cel. João Medeiros - Lagoa Nova, Natal - RN, 59077-080</p>
+                  <p> <fa-icon :icon="['fas','phone']" size="1x" /> Telefone: (84) 3342-2229</p>
+                  <p> <fa-icon :icon="['fas','envelope']" size="1x" /> Email: exemplo@ufrn.edu.br</p>
                 </b-col>
                 <b-col>
                   <p><b-link to="/tutorial">Projetos</b-link></p>
@@ -31,22 +32,13 @@
               </b-row>
 
               <b-row class="text-center">
-                <b-col>Laboratorio de performance (c) copyright 2020</b-col>
+                <b-col>Laboratorio de performance <br/>(c) copyright 2020</b-col>
               </b-row>
             </b-container>
           </div>
+          <div class="espac2"></div>
         </div>
       </footer>
-      <!-- <footer class="footer is-primary">
-        <div>
-          <div>
-            <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia alias voluptatum possimus beatae numquam corrupti ipsa quae, fugit eius error deleniti tenetur? Quam, esse quaerat fuga quisquam quis eum?
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer> -->
   </div>
 </template>
 <script>
@@ -91,9 +83,18 @@ body {
   font-weight: bold;
   color:#a9a9a9;
 }
+.espaçamento{
+  height: 40px;
+}
+.espac2{
+  height: 10x;
+}
+
 footer{
   background-color: $primary !important;
   color: #FF3B3F;
+  line-height: 1.2;
+  font-size: 14px;
 }
 
 </style>
