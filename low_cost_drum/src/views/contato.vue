@@ -52,6 +52,7 @@
       width: 300px;
       display: block;
       border-left-color: black;
+      padding-bottom: 30px;
     }
     .about{
         text-align: left;

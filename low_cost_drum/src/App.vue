@@ -91,7 +91,7 @@ body {
 }
 
 footer{
-  background-color: $primary !important;
+  background-color: #d3d3d3;
   color: #FF3B3F;
   line-height: 1.2;
   font-size: 14px;
