@@ -15,16 +15,16 @@
         <div class="b-111">
           <b-col align-self="center">
               <h2 style="color: #FF3B3F">Sobre a LAPERME</h2>
-              <p>
+              <p style="text-align:left;">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis quisquam sunt reprehenderit aperiam rerum ipsa aliquid corporis repellat molestiae autem suscipit temporibus, neque blanditiis placeat dolore explicabo. Et, provident!<br/>
               </p>
-              <b-button variant= "secondary" to="/sobre">Saber Mais</b-button>
+              <b-button variant= "secondary" to="/sobre">Ver Mais</b-button>
           </b-col>
         </div>
       </b-col>
       <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
-          <b-img src="https://images2.imgbox.com/32/1e/yk8z7ZUH_o.jpg" fluid alt="Responsive image"></b-img>
+          <b-img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" fluid alt="Responsive image"></b-img>
       </b-col>
     </b-row>
     <b-row align-v="center" align-h="end" style="backgroung-color: white;">
@@ -38,8 +38,9 @@
       <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
           <div style="padding-right: 15px; padding-left: 0px;">
             <h2 style="color: #FF3B3F">Nossos Projetos</h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis corrupti quia enim aliquam quisquam corporis incidunt? Iste tenetur enim culpa incidunt aliquid fugit eius iure velit, soluta necessitatibus maiores corrupti.<br/>
-              <b-button variant= "secondary" to="/Tutorial">Saber Mais</b-button>
+              <p style="text-align:left; padding-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis corrupti quia enim aliquam quisquam corporis incidunt? Iste tenetur enim culpa incidunt aliquid fugit eius iure velit, soluta necessitatibus maiores corrupti.<br/>
+              </p>
+              <b-button variant= "secondary" to="/Tutorial">Ver Mais</b-button>
           </div>
       </b-col>
       <!-- <div class="w-100" style="height:'10px'"></div>
@@ -54,13 +55,14 @@
         <div class="b-111">
           <b-col align-self="center">
               <h2 style="color: #FF3B3F">Fale Conosco</h2>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis fugit eum aliquid rem! Fugiat rerum cum similique nam labore qui illo, dolor ex iure voluptatibus fugit alias quisquam expedita distinctio.<br/>
-            <b-button variant= "secondary" to="/contato">Saber Mais</b-button>
+              <p style="text-align:left; padding-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis corrupti quia enim aliquam quisquam corporis incidunt? Iste tenetur enim culpa incidunt aliquid fugit eius iure velit, soluta necessitatibus maiores corrupti.<br/>
+              </p>
+            <b-button variant= "secondary" to="/contato">Ver Mais</b-button>
           </b-col>
         </div>
       </b-col>
       <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
-          <b-img src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"></b-img>
+          <b-img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" fluid alt="Responsive image"></b-img>
       </b-col>
       <!-- <div class="w-100" style="height:'10px'"></div>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, ipsam facilis fuga molestiae quas deserunt consectetur nesciunt aperiam, aut itaque dolorem modi quaerat. Ab accusamus deleniti corrupti tenetur, officiis itaque!

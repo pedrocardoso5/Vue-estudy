@@ -9,21 +9,21 @@
     </section>
     <div class="container">
     <b-container class="bv-example-row" style="padding-top: 40px;">
-        <b-row align-v="center" align-h="end">
+        <b-row align-v="center" align-h="end" style="text-align: center;">
           <b-col>
             <b-card title = "BATERIA" img-src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
               <b-card-text>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sapiente, nostrum provident minus sed dolorem nobis eos delectus numquam aut suscipit dolor iste dicta qui nesciunt ipsum aspernatur fugiat itaque.
               </b-card-text>
-              <b-button variant= "secondary" href="#section1">Ver</b-button>
+              <b-button variant= "secondary" href="#section1">Ver Mais</b-button>
             </b-card>
           </b-col>
           <b-col>
-            <b-card title = "MODULO" img-src="https://images-na.ssl-images-amazon.com/images/I/510nE9cpblL._SX425_.jpg" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
+            <b-card title = "MODULO" img-src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
               <b-card-text>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sapiente, nostrum provident minus sed dolorem nobis eos delectus numquam aut suscipit dolor iste dicta qui nesciunt ipsum aspernatur fugiat itaque.
               </b-card-text>
-              <b-button variant= "secondary" href="#section2">Ver</b-button>
+              <b-button variant= "secondary" href="#section2">Ver Mais</b-button>
             </b-card>
           </b-col>
           <b-col>
@@ -31,7 +31,7 @@
               <b-card-text>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sapiente, nostrum provident minus sed dolorem nobis eos delectus numquam aut suscipit dolor iste dicta qui nesciunt ipsum aspernatur fugiat itaque.
               </b-card-text>
-              <b-button variant= "secondary" href="#section3">Ver</b-button>
+              <b-button variant= "secondary" href="#section3">Ver Mais</b-button>
             </b-card>
           </b-col>
         </b-row>
@@ -188,6 +188,23 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur eos cumque magni eligendi placeat atque, ad ducimus rerum quidem quam voluptates asperiores, ipsum voluptas dicta iste nostrum, veritatis et?
           </p>
         </b-row>
+        <header class="header-h1" id="section2">
+          <h1 style="color: #FF3B3F">FAÇA VOCÊ MESMO</h1>
+        </header>
+        <div class="w-100"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga minus rem optio sunt labore quam recusandae, ut a beatae repudiandae quasi eum iusto aut, obcaecati omnis voluptatum iure tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis quisquam sunt reprehenderit aperiam rerum ipsa aliquid corporis repellat molestiae autem suscipit temporibus, neque blanditiis placeat dolore explicabo. Et, provident!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore velit neque autem, exercitationem tempora error nostrum, quo, saepe fugit aut nam natus iste dicta magni aliquid placeat quae corrupti? Quos.
+        </p>
+        <div>
+        <b-embed
+          type="iframe"
+          aspect="16by9"
+          src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+          allowfullscreen
+          ></b-embed>
+        </div>
+        <div class="espaçamento"></div>
         </b-container>
         </div>
 
@@ -196,6 +213,9 @@
 
 </template>
 <style>
+  .tutorial{
+    text-align: left;
+  }
   html{
     scroll-behavior: s;
   }
