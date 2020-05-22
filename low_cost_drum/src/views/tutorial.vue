@@ -35,8 +35,8 @@
             </b-card>
           </b-col>
         </b-row>
-        <header class="header-h1" id="section1">
-          <h1 style="color: #FF3B3F">BATERIA</h1>
+        <header class="header-h1">
+          <h1 style="color: #FF3B3F"><p><a name="section1"></a></p>BATERIA</h1>
         </header>
         <div class="w-100"></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga minus rem optio sunt labore quam recusandae, ut a beatae repudiandae quasi eum iusto aut, obcaecati omnis voluptatum iure tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
@@ -86,8 +86,8 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur eos cumque magni eligendi placeat atque, ad ducimus rerum quidem quam voluptates asperiores, ipsum voluptas dicta iste nostrum, veritatis et?
           </p>
         </b-row>
-        <header class="header-h1" id="section2">
-          <h1 style="color: #FF3B3F">MODULO</h1>
+        <header class="header-h1">
+          <h1 style="color: #FF3B3F"> <p><a name="section2"></a></p> MODULO</h1>
         </header>
         <div class="w-100"></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga minus rem optio sunt labore quam recusandae, ut a beatae repudiandae quasi eum iusto aut, obcaecati omnis voluptatum iure tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
@@ -137,8 +137,8 @@
           </p>
         </b-row>
         <div class="w-100"></div>
-        <header class="header-h1" id="section3">
-          <h1 style="color: #FF3B3F">PIEZO</h1>
+        <header class="header-h1">
+          <h1 style="color: #FF3B3F"><p><a name="section3"></a></p>PIEZO</h1>
         </header>
         <div class="w-100"></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga minus rem optio sunt labore quam recusandae, ut a beatae repudiandae quasi eum iusto aut, obcaecati omnis voluptatum iure tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
@@ -188,8 +188,10 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur eos cumque magni eligendi placeat atque, ad ducimus rerum quidem quam voluptates asperiores, ipsum voluptas dicta iste nostrum, veritatis et?
           </p>
         </b-row>
-        <header class="header-h1" id="section2">
-          <h1 style="color: #FF3B3F">FAÇA VOCÊ MESMO</h1>
+        <header class="header-h1">
+          <h1 style="color: #FF3B3F">
+            <p><a name='section2'></a></p> FAÇA VOCÊ MESMO
+          </h1>
         </header>
         <div class="w-100"></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga minus rem optio sunt labore quam recusandae, ut a beatae repudiandae quasi eum iusto aut, obcaecati omnis voluptatum iure tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
@@ -217,7 +219,7 @@
     text-align: left;
   }
   html{
-    scroll-behavior: s;
+    scroll-behavior: smooth;
   }
   #b-bateria:checked{
     margin-top: -100vh;

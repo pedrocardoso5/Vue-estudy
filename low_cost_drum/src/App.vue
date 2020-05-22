@@ -24,7 +24,7 @@
                   <p> <fa-icon :icon="['fas','phone']" size="1x" /> Telefone: (84) 3342-2229</p>
                   <p> <fa-icon :icon="['fas','envelope']" size="1x" /> Email: exemplo@ufrn.edu.br</p>
                 </b-col>
-                <b-col>
+                <b-col class="links">
                   <p><b-link to="/tutorial">Projetos</b-link></p>
                   <p><b-link to="/sobre">Sobre</b-link></p>
                   <p><b-link to="/Contato">Contato</b-link></p>
@@ -89,7 +89,10 @@ body {
 .espac2{
   height: 10x;
 }
-
+.links{
+  padding-top: 10px;
+  line-height: 2.0;
+}
 footer{
   background-color: #d3d3d3;
   color: #FF3B3F;
