@@ -14,17 +14,19 @@
             <b-container class="bv-example-row4">
               <b-row class="text-center">
                 <b-col>
-                  <h2>UFRN</h2>
-                  <h2>EMUFRN</h2>
-                  <h2>IMD</h2>
+                  <img class="logos" src="./assets/logotipo_positivo_pronto.png">
+                  <img class="logos" src="./assets/logo_emufrn.jpg" width=120>
+                  <img class="logos" src="./assets/IMD_logo_01-01_pronto.png" width=120 style="text-align:left; padding-top: 20px;">
+                  <h2></h2>
                 </b-col>
                 <b-col cols="8">
                   <p>Escola de Musica da UFRN</p>
                   <p>  R. Cel. João Medeiros - Lagoa Nova, Natal - RN, 59077-080</p>
-                  <p> <fa-icon :icon="['fas','phone']" size="1x" /> Telefone: (84) 3342-2229</p>
+                  <p class="tipo_1"> <fa-icon :icon="['fas','phone']" size="1x" /> Telefone:</p> <p>(84) 3342-2229</p>
                   <p> <fa-icon :icon="['fas','envelope']" size="1x" /> Email: exemplo@ufrn.edu.br</p>
                 </b-col>
                 <b-col class="links">
+                  <p class="tipo_1">Acesso rápido</p>
                   <p><b-link to="/tutorial">Projetos</b-link></p>
                   <p><b-link to="/sobre">Sobre</b-link></p>
                   <p><b-link to="/Contato">Contato</b-link></p>
@@ -32,7 +34,7 @@
               </b-row>
 
               <b-row class="text-center">
-                <b-col>Laboratorio de performance <br/>(c) copyright 2020</b-col>
+                <b-col class="direitos">Laboratorio de performance <br/>(c) copyright 2020</b-col>
               </b-row>
             </b-container>
           </div>
@@ -99,6 +101,27 @@ footer{
   line-height: 1.2;
   font-size: 14px;
   padding-bottom: 20px;
+}
+.tipo_1{
+  font-weight:800;
+}
+.logos{
+  width: 130px;
+}
+@media only screen and (max-width: 450px){
+  .logos{
+    width: 20px;
+  }
+  footer{
+    background-color: #d3d3d3;
+    color: #FF3B3F;
+    line-height: 1.2;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .direitos{
+    padding-top: 20px;
+  }
 }
 
 </style>

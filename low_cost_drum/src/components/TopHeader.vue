@@ -7,11 +7,11 @@
             <!-- <img src="../images/smile.png" alt="Kitten" height="100" width="150"> -->
           </b-navbar-brand>
         </b-navbar>
-        <b-navbar-brand href="#" color:black>LAPERME</b-navbar-brand>
+        <b-navbar-brand href="#" color:black>LAPER²ME</b-navbar-brand>
         <!-- <b-navbar-brand to="/">Home</b-navbar-brand>
         <b-navbar-brand to="/sobre">About</b-navbar-brand> -->
         <!-- <b-navbar-brand to="/">Home</b-navbar-brand> -->
-        <b-navbar-toggle target="nav-collapse" style="color: black">V</b-navbar-toggle>
+        <b-navbar-toggle target="nav-collapse" style="color: black"><fa-icon :icon="['fas','bars']" size="1x" /></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>

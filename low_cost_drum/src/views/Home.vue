@@ -2,8 +2,8 @@
 <div class="home">
   <section class="paralax">
     <div class="bloco-1" style="text-align:left; padding-left: 160px; ">
-      <h1 style="font-size:3.5rem;">LAPERME</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+      <h1 style="font-size:3.5rem;">LAPER²ME</h1>
+      <p >Laboratório de Percussão e Performance Mediados por Recursos Tecnológicos </p>
          <!-- <b-img src="https://uploaddeimagens.com.br/images/002/629/266/original/finaltrue.jpg?1588599760" fluid alt="Responsive image"></b-img> -->
      </div>
   </section>
@@ -14,12 +14,12 @@
       <b-col align-self="center" style="backgroung-color: #fff;">
         <div class="b-111">
           <b-col align-self="center">
-              <h2 style="color: #FF3B3F">Sobre a LAPERME</h2>
-              <p style="text-align:left;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur voluptatum beatae, magnam unde saepe velit repudiandae dolores quis, cumque, assumenda ipsa fuga rerum aliquam hic? Aperiam consectetur nam nulla!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis quisquam sunt reprehenderit aperiam rerum ipsa aliquid corporis repellat molestiae autem suscipit temporibus, neque blanditiis placeat dolore explicabo. Et, provident!<br/>
+              <h2 style="color: #FF3B3F">Sobre a LAPER²ME</h2>
+              <p style="text-align:left; padding-left: 15px;">
+                O objetivo central deste laboratório parte desde a análise qualitativa de aspectos interpretativos focados na execução de obras musicais que contemplem esse repertório, passando pela observação e análise das peculiaridades sonoras dos instrumentos musicais e  relacionando às diversas técnicas de execução e novos parâmetros de interação musical, através da utilização de ferramentas tecnológicas audiovisuais.
+<br/>
               </p>
-              <b-button variant= "secondary" to="/sobre">Ver Mais</b-button>
+              <b-button variant= "secondary" to="/sobre">Saber mais</b-button>
           </b-col>
         </div>
       </b-col>
@@ -38,9 +38,9 @@
       <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
           <div style="padding-right: 15px; padding-left: 0px;">
             <h2 style="color: #FF3B3F">Nossos Projetos</h2>
-              <p style="text-align:left; padding-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis corrupti quia enim aliquam quisquam corporis incidunt? Iste tenetur enim culpa incidunt aliquid fugit eius iure velit, soluta necessitatibus maiores corrupti.<br/>
+              <p style="text-align:left; padding-left: 15px;">Saiba um pouco mais sobre os nossos projetos e quem estão trabalhando neles.<br/>
               </p>
-              <b-button variant= "secondary" to="/Tutorial">Ver Mais</b-button>
+              <b-button variant= "secondary" to="/Tutorial">Saber mais</b-button>
           </div>
       </b-col>
       <!-- <div class="w-100" style="height:'10px'"></div>
@@ -55,9 +55,9 @@
         <div class="b-111">
           <b-col align-self="center">
               <h2 style="color: #FF3B3F">Fale Conosco</h2>
-              <p style="text-align:left; padding-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis corrupti quia enim aliquam quisquam corporis incidunt? Iste tenetur enim culpa incidunt aliquid fugit eius iure velit, soluta necessitatibus maiores corrupti.<br/>
+              <p style="text-align:left; padding-left: 15px;">Fale conosco para saber mais sobre os nossos projetos, mande um email para a nossa equipe.<br/>
               </p>
-            <b-button variant= "secondary" to="/contato">Ver Mais</b-button>
+            <b-button variant= "secondary" to="/contato">Saber mais</b-button>
           </b-col>
         </div>
       </b-col>
