@@ -13,19 +13,19 @@
           <div class="columns">
             <b-container class="bv-example-row4">
               <b-row class="text-center">
-                <b-col>
+                <b-col sm>
                   <img class="logos" src="./assets/logotipo_positivo_pronto.png">
                   <img class="logos" src="./assets/logo_emufrn.jpg" width=120>
-                  <img class="logos" src="./assets/IMD_logo_01-01_pronto.png" width=120 style="text-align:left; padding-top: 20px;">
+                  <img id="logo_3" class="logos" src="./assets/IMD_logo_01-01_pronto.png" width=120>
                   <h2></h2>
                 </b-col>
-                <b-col cols="8">
+                <b-col sm="8">
                   <p>Escola de Musica da UFRN</p>
                   <p>  R. Cel. João Medeiros - Lagoa Nova, Natal - RN, 59077-080</p>
                   <p class="tipo_1"> <fa-icon :icon="['fas','phone']" size="1x" /> Telefone:</p> <p>(84) 3342-2229</p>
                   <p> <fa-icon :icon="['fas','envelope']" size="1x" /> Email: exemplo@ufrn.edu.br</p>
                 </b-col>
-                <b-col class="links">
+                <b-col sm class="links">
                   <p class="tipo_1">Acesso rápido</p>
                   <p><b-link to="/tutorial">Projetos</b-link></p>
                   <p><b-link to="/sobre">Sobre</b-link></p>
@@ -76,6 +76,10 @@ body {
   color: Black;
   background-color: #EFEFEF;
 }
+#logo_3{
+  padding-top: 20px;
+  text-align:left;
+}
 
 #nav {
   padding: 30px;
@@ -108,9 +112,12 @@ footer{
 .logos{
   width: 130px;
 }
+.b_texto{
+  width: 500%;
+}
 @media only screen and (max-width: 450px){
   .logos{
-    width: 20px;
+    width: 90px;
   }
   footer{
     background-color: #d3d3d3;
@@ -121,6 +128,13 @@ footer{
   }
   .direitos{
     padding-top: 20px;
+  }
+  #logo_3{
+    padding-top: 0px;
+    text-align: center;
+  }
+  .b_texto{
+    width: 320%;
   }
 }
 

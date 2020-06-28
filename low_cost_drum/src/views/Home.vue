@@ -1,11 +1,12 @@
 <template>
 <div class="home">
   <section class="paralax">
-    <div class="bloco-1" style="text-align:left; padding-left: 160px; ">
+    <!-- <div class="bloco-1" style="text-align:left; padding-left: 160px; ">
+      <b-col align-self="end">
       <h1 style="font-size:3.5rem;">LAPER²ME</h1>
       <p >Laboratório de Percussão e Performance Mediados por Recursos Tecnológicos </p>
-         <!-- <b-img src="https://uploaddeimagens.com.br/images/002/629/266/original/finaltrue.jpg?1588599760" fluid alt="Responsive image"></b-img> -->
-     </div>
+        </b-col>
+     </div> -->
   </section>
   <div class="rasta">
   </div>
@@ -13,7 +14,7 @@
     <b-row align-v="center" align-h="end">
       <b-col align-self="center" style="backgroung-color: #fff;">
         <div class="b-111">
-          <b-col align-self="center">
+          <b-col sm align-self="center">
               <h2 style="color: #FF3B3F">Sobre a LAPER²ME</h2>
               <p style="text-align:left; padding-left: 15px;">
                 O objetivo central deste laboratório parte desde a análise qualitativa de aspectos interpretativos focados na execução de obras musicais que contemplem esse repertório, passando pela observação e análise das peculiaridades sonoras dos instrumentos musicais e  relacionando às diversas técnicas de execução e novos parâmetros de interação musical, através da utilização de ferramentas tecnológicas audiovisuais.
@@ -23,19 +24,19 @@
           </b-col>
         </div>
       </b-col>
-      <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
+      <b-col sm align-self="center" style="padding-right: 0px; padding-left: 0px;">
           <b-img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" fluid alt="Responsive image"></b-img>
       </b-col>
     </b-row>
     <b-row align-v="center" align-h="end" style="backgroung-color: white;">
       <b-col align-self="center">
         <div class="b-111">
-          <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
+          <b-col align-self="center" sm order="2" style="padding-right: 0px; padding-left: 0px;">
             <b-img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" fluid alt="Responsive image"></b-img>
           </b-col>
         </div>
       </b-col>
-      <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
+      <b-col align-self="center" sm order="1" style="padding-right: 0px; padding-left: 0px;">
           <div style="padding-right: 15px; padding-left: 0px;">
             <h2 style="color: #FF3B3F">Nossos Projetos</h2>
               <p style="text-align:left; padding-left: 15px;">Saiba um pouco mais sobre os nossos projetos e quem estão trabalhando neles.<br/>
@@ -51,7 +52,7 @@
       </p> -->
     </b-row>
     <b-row align-v="center" align-h="end">
-      <b-col align-self="center" style="backgroung-color: #fff;">
+      <b-col align-self="center" sm style="backgroung-color: #fff;">
         <div class="b-111">
           <b-col align-self="center">
               <h2 style="color: #FF3B3F">Fale Conosco</h2>
@@ -61,7 +62,7 @@
           </b-col>
         </div>
       </b-col>
-      <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
+      <b-col align-self="center" sm style="padding-right: 0px; padding-left: 0px;">
           <b-img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" fluid alt="Responsive image"></b-img>
       </b-col>
       <!-- <div class="w-100" style="height:'10px'"></div>

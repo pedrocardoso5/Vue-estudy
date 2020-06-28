@@ -1,11 +1,9 @@
 <template>
   <div class="tutorial">
     <section class="paralax">
-    <div class="bloco-1" style="text-align:left; padding-left: 160px; ">
+    <!-- <div class="bloco-1" style="text-align:left; padding-left: 160px; ">
       <h1 style="font-size:3.5rem;">Bateria</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-         <!-- <b-img src="https://uploaddeimagens.com.br/images/002/629/266/original/finaltrue.jpg?1588599760" fluid alt="Responsive image"></b-img> -->
-     </div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></div> -->
     </section>
     <div class="container">
     <b-container class="bv-example-row" style="padding-top: 40px;">
