@@ -1,14 +1,14 @@
 <template>
   <div class="tutorial">
     <section class="paralax">
-    <!-- <div class="bloco-1" style="text-align:left; padding-left: 160px; ">
+    <div class="bloco-1" style="text-align:left; padding-left: 10%; ">
       <h1 style="font-size:3.5rem;">Bateria</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></div> -->
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></div>
     </section>
     <div class="container">
     <b-container class="bv-example-row" style="padding-top: 40px;">
         <b-row align-v="center" align-h="end" style="text-align: center;">
-          <b-col>
+          <b-col class="cards">
             <b-card title = "Bateria" img-src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
               <b-card-text>
                 A estrutura física da bateria é constituída por materiais de baixo custo, facilitando sua construção.
@@ -16,7 +16,7 @@
               <b-button variant= "secondary" href="#section1">Ver Mais</b-button>
             </b-card>
           </b-col>
-          <b-col>
+          <b-col class="cards">
             <b-card title = "Sensor piezoelétrico" img-src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
               <b-card-text>
                 Sensor presente em cada um dos pads da bateria e responsável por detectar as batidas.
@@ -24,7 +24,7 @@
               <b-button variant= "secondary" href="#section2">Ver Mais</b-button>
             </b-card>
           </b-col>
-          <b-col>
+          <b-col class="cards">
             <b-card title = "Módulo arduino" img-src="http://cdn.shopify.com/s/files/1/1604/8285/products/ADC121C021_PIZO_1_7bb4d874-e6d2-47ae-b206-beb27dd6e691_1024x1024.png?v=1487093278" img-alt="Job-info" img-top tag="article" style="max-width:20rem" class="mb-2">
               <b-card-text>
                 Como “cérebro” da bateria, é responsável por processar as batidas dos pads

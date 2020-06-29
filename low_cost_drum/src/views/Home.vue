@@ -1,12 +1,12 @@
 <template>
 <div class="home">
   <section class="paralax">
-    <!-- <div class="bloco-1" style="text-align:left; padding-left: 160px; ">
+    <div class="bloco-1" style="text-align:left; padding-left: 10%; ">
       <b-col align-self="end">
       <h1 style="font-size:3.5rem;">LAPER²ME</h1>
       <p >Laboratório de Percussão e Performance Mediados por Recursos Tecnológicos </p>
         </b-col>
-     </div> -->
+     </div>
   </section>
   <div class="rasta">
   </div>

@@ -136,6 +136,19 @@ footer{
   .b_texto{
     width: 320%;
   }
+  .cards{
+    padding-top: 25px;
+  }
+  .paralax{
+    background-image: url(https://uploaddeimagens.com.br/images/002/629/266/original/finaltrue.jpg?1588599760);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 300% !important;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
 }
 
 </style>
