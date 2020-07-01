@@ -12,9 +12,9 @@
   </div>
   <div class="conteudo">
     <b-row align-v="center" align-h="end">
-      <b-col align-self="center" style="backgroung-color: #fff;">
-        <div class="b-111">
-          <b-col sm align-self="center">
+      <b-col align-self="center" style="backgroung-color: #fff;" >
+        <div class="b-111" style="padding-right: 15px; padding-top: 25px; padding-bottom: 25px;">
+          <b-col sm align-self="center" style="padding-right: 15px;">
               <h2 style="color: #FF3B3F">Sobre a LAPER²ME</h2>
               <p style="text-align:left; padding-left: 15px;">
                 O objetivo central deste laboratório parte desde a análise qualitativa de aspectos interpretativos focados na execução de obras musicais que contemplem esse repertório, passando pela observação e análise das peculiaridades sonoras dos instrumentos musicais e  relacionando às diversas técnicas de execução e novos parâmetros de interação musical, através da utilização de ferramentas tecnológicas audiovisuais.
@@ -28,21 +28,32 @@
           <b-img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" fluid alt="Responsive image"></b-img>
       </b-col>
     </b-row>
-    <b-row align-v="center" align-h="end" style="backgroung-color: white;">
-      <b-col align-self="center">
-        <div class="b-111">
-          <b-col align-self="center" sm order="2" style="padding-right: 0px; padding-left: 0px;">
+    <b-row align-v="center" align-h="end" style="backgroung-color: white; margin-left: 0px;">
+      <b-col align-self="center"  order-md="5" sm style="padding-right: 0px; padding-left: 0px;">
+        <!-- <div class="b-111">
+          <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
             <b-img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" fluid alt="Responsive image"></b-img>
           </b-col>
-        </div>
-      </b-col>
-      <b-col align-self="center" sm order="1" style="padding-right: 0px; padding-left: 0px;">
-          <div style="padding-right: 15px; padding-left: 0px;">
+        </div> -->
+        <div style="padding-right: 15px; padding-left: 15px; padding-top: 25px; padding-bottom: 25px;">
             <h2 style="color: #FF3B3F">Nossos Projetos</h2>
               <p style="text-align:left; padding-left: 15px;">Saiba um pouco mais sobre os nossos projetos e quem estão trabalhando neles.<br/>
               </p>
               <b-button variant= "secondary" to="/Tutorial">Saber mais</b-button>
           </div>
+      </b-col>
+      <b-col align-self="center" order-md="1" sm style="padding-right: 0px; padding-left: 0px;">
+          <!-- <div style="padding-right: 15px; padding-left: 0px;">
+            <h2 style="color: #FF3B3F">Nossos Projetos</h2>
+              <p style="text-align:left; padding-left: 15px;">Saiba um pouco mais sobre os nossos projetos e quem estão trabalhando neles.<br/>
+              </p>
+              <b-button variant= "secondary" to="/Tutorial">Saber mais</b-button>
+          </div> -->
+          <div class="b-111">
+          <b-col align-self="center" style="padding-right: 0px; padding-left: 0px;">
+            <b-img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" fluid alt="Responsive image"></b-img>
+          </b-col>
+        </div>
       </b-col>
       <!-- <div class="w-100" style="height:'10px'"></div>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, ipsam facilis fuga molestiae quas deserunt consectetur nesciunt aperiam, aut itaque dolorem modi quaerat. Ab accusamus deleniti corrupti tenetur, officiis itaque!
@@ -53,7 +64,7 @@
     </b-row>
     <b-row align-v="center" align-h="end">
       <b-col align-self="center" sm style="backgroung-color: #fff;">
-        <div class="b-111">
+        <div class="b-111" style="padding-right: 15px; padding-top: 25px; padding-bottom: 25px;">
           <b-col align-self="center">
               <h2 style="color: #FF3B3F">Fale Conosco</h2>
               <p style="text-align:left; padding-left: 15px;">Fale conosco para saber mais sobre os nossos projetos, mande um email para a nossa equipe.<br/>
